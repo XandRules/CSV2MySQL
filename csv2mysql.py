@@ -19,7 +19,7 @@ class Csv2Mysql():
 
     #Configurações de conexão com o Banco
     def openConnectionOnDB(self):
-        self.connection = mysql.connector.connect(user='root', password='hkl3025',host='127.0.0.1', database='testecsv2db')    
+        self.connection = mysql.connector.connect(user='root', password='password',host='127.0.0.1', database='testecsv2db')    
 
     #Teste de Conexão com o Banco Mysql
     def testConnectionMySql(self):
